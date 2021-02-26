@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project Explorer</title>
 </head>
 <body>
     <header>
@@ -22,13 +22,13 @@
     <header><h2>Submit Project</h2></header>
     <form name="submitProject">
         <label for="projectName">ProjectName:</label><br>
-        <input type="text" name="name"><br><br>
+        <input type="text" name="name" required><br><br>
         <label for="abstract">Project Abstract:</label><br>
-        <textarea type="text" name="abstract"></textarea><br><br>
+        <textarea type="text" name="abstract" required></textarea><br><br>
         <label for="authors">Authors:</label><br>
-        <input type="text" name="authors"><br><br>
+        <input type="text" name="authors" required><br><br>
         <label for="tags">Tag(s):</label><br>
-        <input type="text" name="tags"><br><br>
+        <input type="text" name="tags" required><br><br>
         <input type="submit" value="Submit">
 
     </form>
